@@ -21,4 +21,9 @@ java {
 
 test {
     useJUnitPlatform()
+    include 'com/example/utils/StringSplitterTest.class'
+    include 'com/example/utils/ParenthesisRemoverTest.class'
+    include 'com/example/utils/CharacterExtractorTest.class'
+    include 'com/example/utils/SetTest.class'
+    include 'com/example/utils/ParsingCalculatorTest.class'
 }
